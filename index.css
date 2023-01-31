@@ -1,13 +1,13 @@
 body {
-
+  padding: 15px;
 }
 
 .header {
   font-family: 'Nunito', sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #ddd;
-  width: 300px;
+  background-color: #fff;
+  max-width: 300px;
   margin: auto;
 }
 
@@ -25,7 +25,6 @@ body {
 .header a:hover {
   background-color: #666;
   color: white;
-  text-decoration: underline;
 }
 
 @media screen and (max-width: 400px) {
@@ -37,4 +36,53 @@ body {
     width: 50%;
     min-width: 100px;
   }
+}
+
+.section {
+  background-color: #ddd;
+  margin: auto;
+  margin-top: 100px;
+  max-width: 500px;
+  padding: 30px 10px;
+
+  /*notched corners*/
+  --notchSize: 30px;
+  clip-path:
+  polygon(
+  0% var(--notchSize),
+  var(--notchSize) 0%,
+  calc(100% - var(--notchSize)) 0%,
+  100% var(--notchSize),
+  100% calc(100% - var(--notchSize)),
+  calc(100% - var(--notchSize)) 100%,
+  var(--notchSize) 100%,
+  0% calc(100% - var(--notchSize))
+  );
+}
+
+.section h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.entry {
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.entry h6 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  color: #006921;
+  margin: 20px 0px 5px;
+  padding: 0px;
+}
+
+.entry p {
+  font-family: 'Lora', sans-serif;
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+  text-align: justify;
 }

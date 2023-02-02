@@ -24,7 +24,8 @@ body {
 
 .header a:hover {
   background-color:;
-  color: white;
+  color: #006921;
+  font-variation-settings: "wght" 900;
 }
 
 @media screen and (max-width: 4in) {

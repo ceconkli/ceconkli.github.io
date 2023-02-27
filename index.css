@@ -92,9 +92,13 @@ body {
   text-align: justify;
 }
 
+.entry a:hover {
+  color: #000;
+}
+
 .paper {
   font-family: 'Lora', sans-serif;
-  font-size: 12px;
+  font-size: 12pt;
   margin: auto;
   padding: 0 15%;
 }

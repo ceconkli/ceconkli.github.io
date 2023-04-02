@@ -92,6 +92,14 @@ body {
   text-align: justify;
 }
 
+.entry a {
+  font-family: 'Nunito', sans-serif;
+  font-size: 15px;
+  color: #006921;
+  margin: 20px 0px 5px;
+  padding: 0px;
+}
+
 .entry a:hover {
   color: #000;
 }
@@ -100,5 +108,5 @@ body {
   font-family: 'Lora', sans-serif;
   font-size: 12pt;
   margin: auto;
-  padding: 0 15%;
+  padding: 0 25%;
 }

@@ -8,16 +8,16 @@ body {
   z-index: -10000;
 }
 
-.header {
-  font-family: 'Nunito', sans-serif;
+#header {
+  font-family: 'Montserrat', sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #fff;
-  max-width: 300px;
+  display: flex;
+  flex-wrap: nowrap;
   margin: auto;
 }
 
-.header a {
+#header a {
   color: black;
   text-align: center;
   padding: 12px;
@@ -28,20 +28,20 @@ body {
   text-decoration: none
 }
 
-.header a:hover {
+#header a:hover {
   background-color:;
   color: #006921;
 }
 
-@media screen and (max-width: 4in) {
-  .header {
+@media all and (max-width: 520px) {
+  #header {
     width: 50%;
     min-width: 100px;
+    display: block;
   }
 
-  .header a {
-    display: block;
-    font-size: 4.2vw;
+  #header a {
+    margin: auto;
   }
 
   .section {
@@ -72,7 +72,7 @@ body {
 }
 
 .section h1 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   text-align: center;
 }
@@ -83,7 +83,7 @@ body {
 }
 
 .entry h6 {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   color: #006921;
   margin: 20px 0px 5px;
@@ -99,7 +99,7 @@ body {
 }
 
 .entry a {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   color: #006921;
   margin: 20px 0px 5px;
@@ -133,8 +133,23 @@ body {
 #title > h1 {
   margin-bottom: 2em;
   border-top: solid 3px #333;
+  font-weight: normal;
 }
 
 #paper h2 {
   font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+p > a {
+  text-decoration: none;
+  color: #006921;
+}
+
+p > a:hover {
+  text-decoration: underline;
+}
+
+p > a:active {
+  color: #777;
 }

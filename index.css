@@ -1,5 +1,11 @@
 body {
-  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 100%;
+  position: relative;
+  z-index: -10000;
 }
 
 .header {
@@ -104,9 +110,31 @@ body {
   color: #000;
 }
 
-.paper {
+#paper {
   font-family: 'Lora', sans-serif;
   font-size: 12pt;
-  margin: auto;
-  padding: 0 25%;
+  padding: 3rem 0 18rem 0;
+  margin-left: 12rem;
+  margin-right: 2.5rem;
+}
+
+#title, aside {
+  display: block;
+  float: left;
+  position: absolute;
+  margin-left: 0;
+  left: 2.5rem;
+  width: calc(2.5rem*3);
+  text-align: right;
+  clear: both;
+  margin-bottom: 1rem;
+}
+
+#title > h1 {
+  margin-bottom: 2em;
+  border-top: solid 3px #333;
+}
+
+#paper h2 {
+  font-family: 'Montserrat';
 }

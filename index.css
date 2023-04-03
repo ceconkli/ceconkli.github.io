@@ -73,7 +73,7 @@ body {
 
 .section h1 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
 }
 
@@ -84,7 +84,7 @@ body {
 
 .entry h6 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   color: #006921;
   margin: 20px 0px 5px;
   padding: 0px;
@@ -92,15 +92,13 @@ body {
 
 .entry p {
   font-family: 'Lora', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   margin: 0px;
   padding: 0px;
   text-align: justify;
 }
 
 .entry a {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
   color: #006921;
   margin: 20px 0px 5px;
   padding: 0px;

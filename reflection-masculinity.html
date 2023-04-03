@@ -2,16 +2,21 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="index.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora|Nunito&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora|Montserrat|Montserrat:bold&display=swap">
+
+    <script
+			  src="https://code.jquery.com/jquery-3.6.4.min.js"
+			  integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+			  crossorigin="anonymous"></script>
+    <script>
+      $(function() {
+        $('#header').load("header.html");
+      });
+    </script>
   </head>
 
   <body>
-    <div class="header">
-      <a href="/">Home</a>
-      <a href="/design">Design</a>
-      <a href="/papers">Papers</a>
-      <a href="/contact">Contact</a>
-    </div>
+    <div id="header"></div>
 
     <div class="paper">
       <p>In the articles about masculinity in contemporary urban Egypt, there is a clear focus on when men perform their gender role adequately versus when they do not. Transgressing prescribed gender roles in any society is usually considered strange if not morally questionable, yet the ability to effectively affirm one’s own gender identity is heavily affected by their social class. Here we examine two narratives from the past century: one of men working in textile factories during the first half of the 20th century, and the other of a man working in the auto body repair industry in the latter half of the century into the 21st century.</p>

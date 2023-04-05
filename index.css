@@ -38,6 +38,7 @@ body {
     width: 50%;
     min-width: 100px;
     display: block;
+    text-align: center;
   }
 
   #header a {
@@ -111,9 +112,9 @@ body {
 #paper {
   font-family: 'Lora', sans-serif;
   font-size: 12pt;
-  padding: 3rem 0 18rem 0;
-  margin-left: 12rem;
-  margin-right: 2.5rem;
+  padding: 0rem 0 18rem 0;
+  margin-left: 15rem;
+  margin-right: 4rem;
 }
 
 #title, aside {
@@ -137,6 +138,10 @@ body {
 #paper h2 {
   font-family: 'Montserrat';
   font-weight: bold;
+}
+
+aside > img {
+  max-width: 10rem;
 }
 
 p > a {

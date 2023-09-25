@@ -117,17 +117,28 @@ body {
   margin-right: 4rem;
 }
 
+@media all and (min-width: 1000px){
+  #paper {
+    font-size: 24px;
+  }
+  aside {
+    font-size: 18px;
+  }
+  #title, #title > h1 {
+    font-size: 30px;
+  }
+}
+
 #title, aside {
   display: block;
   float: left;
   position: absolute;
   margin-left: 0;
   left: 2.5rem;
-  max-width: 12rem;
   text-align: right;
   clear: both;
   margin-bottom: 1rem;
-  font-size: 1.8vw;
+  font-size: 1.5vw;
 }
 
 #title > h1 {

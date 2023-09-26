@@ -109,6 +109,14 @@ body {
   color: #000;
 }
 
+.entry ol {
+  font-family: 'Lora', sans-serif;
+  font-size: 14px;
+  margin: 0px;
+  padding: 0px;
+  text-align: justify;  
+}
+
 #paper {
   font-family: 'Lora', sans-serif;
   font-size: 2.4vw;

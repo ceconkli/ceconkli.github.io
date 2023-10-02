@@ -8,6 +8,11 @@ body {
   z-index: -10000;
 }
 
+#construction {
+  margin: auto;
+  display: block;
+}
+
 #header {
   font-family: 'Montserrat', sans-serif;
   padding-top: 20px;
@@ -114,7 +119,7 @@ body {
   font-size: 14px;
   margin: 0px;
   padding: 0px;
-  text-align: justify;  
+  text-align: justify;
 }
 
 #paper {
